@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_section_prices",
+  "info": {
+    "name": "sectionPrice",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallment": {
+      "required": true,
+      "type": "integer"
+    },
+    "benefits": {
+      "type": "richtext",
+      "default": "Create items a bullet list",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
