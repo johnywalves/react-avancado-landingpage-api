@@ -6,10 +6,15 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
     "modules": {
       "type": "component",
       "repeatable": true,
       "component": "page.modules",
+      "required": true,
       "min": 2
     }
   }

@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "review": {
+    "text": {
       "type": "text",
       "required": true
     },

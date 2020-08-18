@@ -6,8 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "text",
+    "question": {
+      "type": "string",
       "required": true
     },
     "answer": {

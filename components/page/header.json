@@ -8,7 +8,6 @@
   "attributes": {
     "title": {
       "type": "string",
-      "default": "React Avançado",
       "required": true
     },
     "description": {

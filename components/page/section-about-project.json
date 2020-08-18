@@ -14,12 +14,11 @@
       "type": "richtext",
       "required": true
     },
-    "media": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true

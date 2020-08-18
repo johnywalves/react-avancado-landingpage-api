@@ -11,15 +11,16 @@
       "enum": [
         "Github",
         "Twitter",
+        "Dribbble",
         "LinkedIn",
-        "Dribble"
+        "Facebook"
       ],
       "default": "Twitter",
       "required": true
     },
     "url": {
       "type": "string",
-      "unique": true
+      "required": true
     }
   }
 }

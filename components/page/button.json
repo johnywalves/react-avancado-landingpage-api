@@ -8,8 +8,8 @@
   "attributes": {
     "label": {
       "type": "string",
-      "required": true,
       "default": "Comprar",
+      "required": true,
       "maxLength": 20
     },
     "url": {

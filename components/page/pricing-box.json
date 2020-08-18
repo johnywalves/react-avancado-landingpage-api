@@ -1,26 +1,27 @@
 {
-  "collectionName": "components_page_section_prices",
+  "collectionName": "components_page_pricing_boxes",
   "info": {
-    "name": "sectionPrice",
+    "name": "pricingBox",
     "icon": "dollar-sign"
   },
   "options": {},
   "attributes": {
     "totalPrice": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "default": 415
     },
     "numberInstallments": {
       "type": "integer",
       "required": true
     },
     "priceInstallment": {
-      "required": true,
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "benefits": {
       "type": "richtext",
-      "default": "Create items a bullet list",
+      "default": "Create items as bullet list",
       "required": true
     },
     "button": {

@@ -5,10 +5,10 @@
   "strapi": {
     "name": "wysiwyg",
     "icon": "plug",
-    "description": "Description of wysiwyg plugin."
+    "description": "CKEditor to rich text fields."
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^21.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^20.0.0",
     "@ckeditor/ckeditor5-react": "^2.1.0"
   },
   "author": {

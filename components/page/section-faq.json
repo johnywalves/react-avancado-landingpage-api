@@ -7,13 +7,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "questions": {
       "type": "component",
       "repeatable": true,
       "component": "page.questions",
-      "required": true
+      "required": true,
+      "min": 2
     }
   }
 }
